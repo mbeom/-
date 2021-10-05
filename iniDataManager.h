@@ -21,9 +21,12 @@ private:
 private:
 	arrIniDatas _vIniData;
 
-public:
 	iniDataManager();
 	~iniDataManager();
+
+	friend singletonBase;
+
+public:
 
 	HRESULT init();
 	void release();

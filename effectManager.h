@@ -21,9 +21,12 @@ private:
 private:
 	arrTotalEffect _vTotalEffect;
 
-public:
 	effectManager();
 	~effectManager();
+
+	friend singletonBase;
+
+public:
 
 	HRESULT init();
 	void release();

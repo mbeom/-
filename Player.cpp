@@ -537,8 +537,8 @@ void player::playerInfoInit()
 	//_player.x = 5450;
 	//_player.y = 919.0f;
 	
-	_player.x = 5450;
-	_player.y = 919;
+	_player.x = 100;
+	_player.y = 300;
 
 	_player.dir = RIGHT;
 
